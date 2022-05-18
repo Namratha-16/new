@@ -1,0 +1,6 @@
+string = str(input("Enter a String :"))
+if string == string[::-1]: # ''.join(reversed(second_str)) [slower]
+	print(string, 'string is palindrome')
+else:
+	print(string, 'string is not palindrome')
+

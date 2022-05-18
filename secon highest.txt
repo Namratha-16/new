@@ -1,0 +1,9 @@
+h = max(l1[0],l1[1])
+sh = min(l1[0], l1[1])
+for i in range (2,length):
+    if l1[i] > h:
+        sh = h
+        h = l1[i]
+    elif l1[i] > sh and h!= l1[i]:
+        sh = l1[i]
+print("second highest number:",str(sh))
